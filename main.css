@@ -1,0 +1,423 @@
+.header{
+    max-width: 1920px;
+    width: 100%;
+    max-height:90px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+  justify-content: space-around;
+    align-items: center;
+ 
+    margin-top: 15px;
+
+    
+}
+
+
+ .header span{
+    color: black;
+   
+    margin: 15px;
+    cursor: pointer;
+    
+  
+
+}
+
+.header span:hover{
+    color: #001489;
+}
+
+.background{
+    background-image: url(/MaskGroup2.png);
+    max-width: 1920px;
+    width: 100%;
+    height: 732px;
+   align-items: center;
+
+    flex-wrap: wrap;
+  
+}
+
+
+
+
+
+.background h4{
+    max-width: 400px;
+    width: 100%; 
+    color: white;
+    text-align: center;
+  
+   margin: auto ;
+
+}
+.textArea{
+    max-width: 500px;
+    width: 100%; 
+    height: 200px;
+    color: white;
+   text-align: center;
+    margin: auto;
+
+   padding-top: 20px;
+
+}
+.blackArea{
+    max-width: 1920px;
+    width: 100%;
+   height: 732px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    align-items: center;
+}
+
+
+.imgArea{
+  
+    max-width: 1920px; 
+    width: 100%; 
+     height: auto;
+    display: flex;  
+
+    margin-top: 15px;
+    
+   
+    
+  
+   
+  
+}
+.bg1{
+    background-image: url(/Mask\ Group\ 3.png);
+  max-width: 825px;
+  width: 100%;
+    width: 100%;
+ 
+
+}
+
+.bg2{
+    background-image: url(/276db598-fd8b-4b56-88c7-b72c98eb99f6.png); 
+   max-width: 825px;
+    width: 100%;
+  
+ 
+   
+    
+
+   
+   
+
+}
+.bg2Blue{
+   max-width: 825px;
+    width: 100%;
+
+    background-color: #007BBE;
+    opacity: 0.8;
+}
+
+
+.bg2Blue img {
+    max-width: 55px;
+    width: 100%;
+    max-height: 52px;
+    height: 100%;
+justify-content: flex-start;
+padding: 20px;
+
+}
+.bg2Blue h2{
+    color: white;
+}
+.bg2Blue p {
+    color: white;
+}
+.bg1text{
+     max-width: 450px;
+     width: 100%;
+     
+    color: #12267C;
+    margin: auto;
+    cursor: pointer;
+  
+
+
+    
+}
+
+.hrAbout{
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bg1text span{
+    background-color: white;
+    max-width: 80px;
+    width: 100%;
+    padding: 12px;
+    
+
+}
+
+.textMiddle{
+    max-width: 1920px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  color: #001489;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.textMiddle p{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  
+}
+.sectorArea{
+    
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    
+}
+.sectorOto{
+    max-width: 300px;
+    width: 100%;
+    
+    background-color: #FAFAFA;
+    border-color: #E0E0E0;
+    
+    border-width: 3px;
+   padding: 5px;
+
+    align-items: center;
+    display: flex;
+    color: #001489;
+    cursor: pointer;
+}
+
+
+
+.sectorArea img{
+    max-width: 80px;
+    width: 100%;
+    margin: 10px;
+ 
+}
+
+.sectors{
+    max-width: 300px;
+    width: 100%;
+    
+    background-color: #FAFAFA;
+    border-color: #E0E0E0;
+    
+    border-width: 3px;
+   padding: 15px;
+
+    align-items: center;
+    display: flex;
+    
+}
+.sectors span{
+    color: #444444;
+}
+
+.textLeft{
+    max-width: 1450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.textLeft img{
+    max-width: 651px;
+    width: 100%;
+    margin-top: 15px;
+}
+.textLeft p{
+    max-width: 502px;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    color: #777777;
+}
+
+.textleftButton button{
+    background-color: white;
+    border-width: 1px ;
+    border-color: #D0D0D0;
+    padding: 10px 20px;
+    border-left: 8px solid;
+   border-left-color: #007BBE;
+   color: #007BBE;
+   margin-left: 20px;
+   cursor: pointer;
+ 
+
+    
+
+}
+
+.textleftButton button:hover{
+    color: #777777;
+}
+
+.textRight{
+    max-width: 1920px;
+    width: 100%;
+  height: auto;
+    background-color: #001489;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.textRight img{
+    max-width: 980px;
+    width: 100%;
+    height: auto;
+}
+
+.textRight span{
+    letter-spacing: 2px;
+    font-size: smaller;
+}
+
+.textRight .textImg{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.textImg h2{
+    max-width: 280px;
+    width: 100%;
+}
+
+
+.textImg button{
+    background-color: transparent;
+    color: white;
+    padding: 10px 21px;
+    border-color: white;
+    border-width: 0.4px;
+    cursor: pointer;
+}
+.bgiBottom{
+    background-image: url(/shutterstock_567812128.png);
+    max-width: 1920px;
+    width: 100%;
+   height: 450px;
+  margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bgBottomBlue{
+
+    max-width: 800px;
+    width: 100%;
+  
+ margin-top: 20px;
+ margin: auto;
+   
+   align-items: center;
+   background-color: #001489;
+   opacity: 0.9;
+   padding-left: 15px;
+   padding-top: 15px;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+.bgBottomBlue h2{
+    max-width: 280px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.bgBottomBlue .buttonOne{
+    background-color: white;
+    border: none;
+    padding: 12px 22px;
+    color: #001489;
+    cursor: pointer;
+}
+
+.bgBottomBlue .buttonTwo{
+    background-color: transparent;
+    border: 0.5px solid;
+    border-color: white;
+    padding: 12px 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons{
+   margin: 12px;
+   
+}
+
+.footer{
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+}
+
+.footerLeft{
+    max-width: 820px;
+    width: 100%;
+    height: 250px;
+    background-color: #4B4B4B;
+    margin: 20px 0 0 20px;
+  
+}
+
+
+.footerArea .ikon{
+    max-width: 320px;
+    width: 100%;
+    color: white;
+    align-items: center;
+   
+   
+}
+
+.footerRight{
+    max-width: 820px;
+    width: 100%;
+    height: 250px;
+    background-color: #222222;
+    margin: 20px 0 0 0px;
+}
+
+.footerRight h4{
+    color: #646464;
+    margin-left: 20px;
+}
+
+.footerRight li{
+    color: white;
+    list-style: none;
+}
+
